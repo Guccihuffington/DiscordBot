@@ -4,8 +4,9 @@ import schedule
 import asyncio
 import discord
 from discord.ext import commands
-from Token import Discord_Token
 import random
+from dotenv import load_dotenv
+load_dotenv()
 
 #meme api call
 def Get_Meme():    
@@ -120,4 +121,4 @@ async def leave(ctx):
 
 
 
-client.run(Discord_Token)
+client.run(os.getenv("Key"))

@@ -1,1 +1,0 @@
-Discord_Token = 'MTMxNTAzNzA1MzEyOTMzMDc1MA.GtPaiW.CBfp_kuKRIGtQrNTGw_AzMw1VICvfxP_64nBEo'
